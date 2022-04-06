@@ -1,1 +1,1 @@
-{"Id":1,"OrderItems":[{"Id":1,"Toys":{"Id":1,"Name":"MigMig","Price":6.5},"Count":1,"TotalPrice":6.5},{"Id":3,"Toys":{"Id":3,"Name":"Polesie","Price":12.7},"Count":4,"TotalPrice":50.8}]}
+{"Id":1,"OrderItems":[{"Id":1,"Product":{"Id":1,"Name":"MigMig","Price":6.5},"Count":1,"TotalPrice":6.5},{"Id":3,"Product":{"Id":3,"Name":"Polesie","Price":12.7},"Count":4,"TotalPrice":50.8}]}

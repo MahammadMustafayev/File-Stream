@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KJ2G1JWZ4qSGYQB6uQ/yOOREZsk0bg2MTsbPueo/LDkrCSaaliLxKCn0GcdLTebUZKZLmnuwssbyU7v60Qp5Kw==",
+  "dgSpecHash": "TtAaQic9cxsGZnXvP9BfhgHL7u7nNNekSK/02VeoHI4swLjYHF9pDKpeMT715WT0GI3hz+/YIVquMhCyg6H0lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\İş masası\\JSON\\JSON\\JSON.csproj",
+  "projectFilePath": "C:\\Users\\tu7ekdm78\\Desktop\\File-Stream\\JSON\\JSON.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\tu7ekdm78\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
