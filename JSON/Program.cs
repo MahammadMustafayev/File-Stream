@@ -10,6 +10,7 @@ namespace JSON
     {
         static void Main(string[] args)
         {
+            /* Team Mahammad && Anar*/
             #region SerializeObject
             Product laptop = new Product { Id = 1, Name = "Asus Zephyrus G14", Price = 3500 };
             Product headphones = new Product { Id = 2, Name = "JBL Giannis", Price = 350 };
@@ -37,16 +38,16 @@ namespace JSON
             }
             #endregion
             #region DeserializeObject
-            //string temp;
-            //using (StreamReader sr = new StreamReader(@"C:\Users\tu7ekdm78\Desktop\File-Stream\JSON\Files\json1.json"))
-            //{
-            //    temp = sr.ReadToEnd();
-            //}
-            //Order order = JsonConvert.DeserializeObject<Order>(temp);
-            //Console.WriteLine(order.orderItems[0].Product.Id);
-            //Console.WriteLine(order.orderItems[0].Product.Name);
-            //Console.WriteLine(order.orderItems[1].Product.Id);
-            //Console.WriteLine(order.orderItems[1].Product.Name);
+            string temp;
+            using (StreamReader sr = new StreamReader(@"C:\Users\tu7ekdm78\Desktop\File-Stream\JSON\Files\json1.json"))
+            {
+                temp = sr.ReadToEnd();
+            }
+            Order order = JsonConvert.DeserializeObject<Order>(temp);
+            Console.WriteLine(order.orderItems[0].Product.Id);
+            Console.WriteLine(order.orderItems[0].Product.Name);
+            Console.WriteLine(order.orderItems[1].Product.Id);
+            Console.WriteLine(order.orderItems[1].Product.Name);
             #endregion
         }
     }
